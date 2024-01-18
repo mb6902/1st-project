@@ -146,25 +146,5 @@
     opacity: 0.8;
   }
    
-  @media only screen and (max-width: 320px) {
-   .apartment{
-    background-color: floralwhite;
-    width: 100%;
-    height: 300vh;
-   }
-   .center1 p{
-    margin-top: -62px;
-   }
-   .center2 img{
-    width: 100%;
-    height: 128px;
-    position: absolute;
-    top: 172px;
-    padding-left: 0%;
-   }
-   .center3 p{
-    margin-left :15% ;
-    padding: 0px;
-   }
-  }    
+  
   
