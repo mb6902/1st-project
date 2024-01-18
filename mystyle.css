@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+}
+.home{
+    background-image: url("./2028728.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+  .apartment{
+    background-color: floralwhite;
+    width: 100%;
+    height: 300vh;
+  }
+  .center{
+    width: 65%;
+    margin-left: 18%;
+  }
+  .center1{
+    background-color: white;
+    width: 100%;
+    height: 300px;
+  }
+  h1:hover{
+    text-decoration: underline red;
+  }
+  h1 {
+    padding: 50px;
+  }
+  .center2{
+    width: 100%;
+    height: 300px;
+    background-color: darkcyan;
+    position: relative;
+    color: azure;
+}
+.center2 img{
+    width: 100%;
+    height: 300px;
+    padding-left: 41%;
+    position: absolute;
+    top: 0px;
+}
+  .center3{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    color: azure;
+}
+.center3 img{
+    width: 100%;
+    height: 300px;
+    padding-right: 59%;
+    position: absolute;
+    top: 0px;
+}
+.center3 p{
+    margin-left: 40%;
+    font-size: 18px;
+    padding: 100px;
+    color: #111;
+}
+.center4 img{
+    width: 100%;
+    height: 300px;
+    padding-left: 41%;
+    position: absolute;
+    top: 0px;
+}
+.center4{
+    width: 100%;
+    height: 300px;
+    background-color: darkcyan;
+    color: azure;
+    position: relative;
+    margin-top: 60px;
+}
+.center5{
+    width: 100%;
+    height: 300px;
+    background-color: white ;
+    color: darkcyan;
+    padding: 10px;
+}
+.center5 p {
+      /* margin: 10% ; */
+      margin-top: 150px;
+      text-align: center;
+}
+.center6{
+    width: 100%;
+    height: 300px;
+    background-color: darkcyan ;
+    position: relative;
+    color: azure;
+}
+.center6 img{
+    width: 100%;
+    height: 300px;
+    padding-right: 59%;
+    position: absolute;
+    top: 0px;
+}
+.center6 p{
+    margin-left: 45%;
+    font-size: 18px;
+    color: white;
+}
+.center6 h1{
+    margin-left: 48%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+   
+  @media only screen and (max-width: 320px) {
+   .apartment{
+    background-color: floralwhite;
+    width: 100%;
+    height: 300vh;
+   }
+   .center1 p{
+    margin-top: -62px;
+   }
+   .center2 img{
+    width: 100%;
+    height: 128px;
+    position: absolute;
+    top: 172px;
+    padding-left: 0%;
+   }
+   .center3 p{
+    margin-left :15% ;
+    padding: 0px;
+   }
+  }    
+  
